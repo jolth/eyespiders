@@ -1,0 +1,25 @@
+$def with (company, pagename)
+<!doctype html>
+<html>
+    <head>
+        <title>$company :: $pagename</title>
+        <link rel="icon" href="/static/img/favicon.png" type="image/png" /> 
+        <link rel="stylesheet" type="text/css" href="/static/css/login.css" />
+    </head>
+    <!--<h1>$company</h1>-->
+    <div id="login-box">
+    <div id="car">
+        <form id="form" method="post" action="login">
+           <label>Usuario</label> 
+           <input type="text" name="user" class="input" />
+           <label>Contraseña</label>
+           <input type="password" name="passwd" class="input" />
+           <!--<div class="submit"><input id="submit" type="submit" value />-->
+           <div class="submit"><input class="boton" type="submit" value="Entrar" />
+           </div>
+        </form>
+    </div>
+    </div>
+    <footer>
+    </footer>
+</html>
