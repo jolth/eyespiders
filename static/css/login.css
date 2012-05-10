@@ -4,10 +4,9 @@ font: 90% "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans
 /*font: 75% arial,helvetica,sans-serif;*/
 /*font-family: Verdana;*/
 background-color: #FFF;
-
+font-size: 90%; /* importante tamaño relativo para todos */
 /*IE6*/
 text-align: center;
-
 }
 
 #login-box {
