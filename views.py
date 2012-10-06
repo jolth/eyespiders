@@ -7,6 +7,6 @@ render = template.render('templates/')
 
 class login:
     def GET(self):
-        company = "G-mys"
+        company = "Dev Microsystem"
         pagename = "Login"
         return render.login(company, pagename)
